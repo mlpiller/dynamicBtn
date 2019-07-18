@@ -1,0 +1,70 @@
+/*
+    Document   : override
+    Created on : <date>
+    Author     : <author>
+    Description:
+        This is where any of your application specific styles should be included
+*/
+
+/* Hides the content area until we are ready to display after paddings have been adjusted. 
+    oj-complete is a marker class that is applied by the appController 
+    after adjusting the content area. */
+.oj-applayout-content:not(.oj-complete) {
+  visibility: hidden;
+}
+
+.demo-james-icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.demo-profile-name {
+  font-size: 1.714rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 42px;
+}
+
+.demo-app-name {
+  padding-top: 40px;
+  color: #979899;
+}
+
+
+/***************************************
+  P A G E   H E A D I N G   S T Y L E S
+  a.k.a   B A N N E R
+****************************************/
+
+#headingButton2 > button > div > span, #headingButton1 > button > div > span {
+  font-size: 14px;
+}
+
+#headingButton1 {
+  padding-right: 10px;
+}
+
+.oj-button-sm.mydemo-button__primary.oj-button .oj-button-button {
+  background-color: #0060a9;
+  border-color: #005290;
+  border-radius: 3px;
+}
+
+.oj-button-sm.mydemo-button__danger.oj-button .oj-button-button {
+  background-color: #e6555f;
+  border-color: #e33f4a;
+  border-radius: 3px;
+}
+
+
+.mydemo-button__hidden {
+  display: none;
+}
+
+

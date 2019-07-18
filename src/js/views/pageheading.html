@@ -1,0 +1,21 @@
+<div id="pageHeadingContent" class="oj-panel oj-panel-alt1 oj-sm-margin-2x">
+    <div id="pageHeadingFlexBar" class="oj-flex-bar">
+        <div id="pageHeading" class="oj-flex-bar-start"><span class="ecit-pageHeading__span--padding"><i
+                    :class="[[bannerIcon]]"></i></span> <span>
+                <oj-bind-text value="[[bannerHeading]]"></oj-bind-text>
+            </span>
+        </div>
+        <div id="buttons" class="oj-flex-bar-end">
+            <oj-button :class="[[headingButton1Class]]" chroming="full" id='headingButton1'>
+                <span slot='startIcon' :class="[[headingButton1Icon]]">
+                    <oj-bind-text value="[[headingButton1Text]]"></oj-bind-text>
+                </span>
+            </oj-button>
+            <oj-button :class="[[headingButton2Class]]" chroming="full" id='headingButton2'>
+                <span slot='startIcon' :class="[[headingButton2Icon]]">
+                    <oj-bind-text value="[[headingButton2Text]]">
+                </span>
+            </oj-button>
+        </div>
+    </div><!-- pageHeadingFlexBar -->
+</div>
